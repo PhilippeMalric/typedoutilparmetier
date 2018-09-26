@@ -93,7 +93,7 @@ var cardText = function(Marque,NumPiece,Description,SiteWeb,Dimensions,Poids,Spe
 		"<a target=\"_blank\" href=\""+SiteWeb+"\">Site Web</a>"+
 		((Dimensions != "N/A")?"<p>Dimensions : "+Dimensions+"</p>":"")+
 		((Poids != "N/A")?"<p>Poids : "+Poids+"</p>":"")+
-		"<br><a target=\"_blank\" href=\"./Specs/"+Specs+"\">Specification</a>"
+		"<br><a target=\"_blank\" href=\"http://toolsbox.ca/wp-content/uploads/2018/09/"+Specs+"\">Specification</a>"
 		
 	return text
 }

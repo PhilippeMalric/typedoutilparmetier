@@ -1,6 +1,11 @@
 {
-  "name": "",
-  "version": "",
+  "name": "MonSiteWeb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://PhilippeMalric.github.io/typedoutilparmetier",
   "dependencies": {
     "gh-pages": "^2.0.0"
   }
